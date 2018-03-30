@@ -1,0 +1,17 @@
+{
+  "name": "node_express_benchmark",
+  "version": "1.0.0",
+  "description": "Express Benchmark",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pmx": "^1.6.4"
+  }
+}
