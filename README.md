@@ -5,6 +5,7 @@
 
 ## PM2 logs
 
+```
 2|Benchmar | GET /view 200 0.701 ms - 3083
 1|Benchmar | GET /view 200 0.307 ms - 3083
 1|Benchmar | GET /view 200 0.525 ms - 3083
@@ -13,6 +14,7 @@
 2|Benchmar | GET /view 200 0.847 ms - 3083
 0|Benchmar | GET /view 200 0.610 ms - 3083
 0|Benchmar | GET /view 200 0.628 ms - 3083
+```
 
 ### Test 1
 
@@ -135,14 +137,18 @@ Percentage of the requests served within a certain time (ms)
 
 ## NODE_ENV : production
 
+Express is caching views on `production` is evident.
+
 ## PM2 logs
 
+```
 2|Benchmar | GET /view 200 0.252 ms - 3083
 0|Benchmar | GET /view 200 0.247 ms - 3083
 3|Benchmar | GET /view 200 0.232 ms - 3083
 1|Benchmar | GET /view 200 0.235 ms - 3083
 0|Benchmar | GET /view 200 0.194 ms - 3083
 3|Benchmar | GET /view 200 0.220 ms - 3083
+```
 
 ### Test 1
 
